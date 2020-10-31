@@ -27,7 +27,9 @@
 .page-header-textura{
     .page-textura {
         padding: 2rem 1rem;
-        background: url(../images/header/header_pattern.svg) scroll bottom center repeat !important;
+        background: url(../images/header/header_pattern.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
